@@ -38,15 +38,23 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
 
 ## Installation
 - Clone the repository:
+```
   git clone https://github.com/yourusername/library-management.git
   cd library-management
+```
 - Install required packages:
+```
   pip install -r requirements.txt
+```
 - Set up the database:
+```
   python setup_database.py
+```
 ## Usage
 - Run the application:
+```
   python library_app.py
+```
 - Features:
   - Find an item
   - Borrow an item
@@ -57,5 +65,5 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
   - Volunteer for the library
   - Ask for help from a librarian
 
-##License##
+## License
 This project is licensed under the MIT License.
