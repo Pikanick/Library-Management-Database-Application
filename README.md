@@ -38,7 +38,7 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
 
 ## Installation
 - Clone the repository:
-```
+```py
   git clone https://github.com/yourusername/library-management.git
   cd library-management
 ```
