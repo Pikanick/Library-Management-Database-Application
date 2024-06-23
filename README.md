@@ -37,33 +37,25 @@ This project is a comprehensive Library Management Database Application develope
 All tables are in BCNF as each non-trivial functional dependency has a superkey as the determinant, ensuring the database design avoids anomalies.
 
 ##Installation##
-Clone the repository:
-bash
-Copy code
-```git clone https://github.com/yourusername/library-management.git```
-code cd library-management
-Install required packages:
-bash
-Copy code
-pip install -r requirements.txt
-Set up the database:
-bash
-Copy code
-python setup_database.py
+- Clone the repository:
+  git clone https://github.com/yourusername/library-management.git
+  cd library-management
+- Install required packages:
+  pip install -r requirements.txt
+- Set up the database:
+  python setup_database.py
 ## Usage ##
-Run the application:
-bash
-Copy code
-python library_app.py
-Features:
-Find an item
-Borrow an item
-Return an item
-Donate an item
-Find an event
-Register for an event
-Volunteer for the library
-Ask for help from a librarian
+- Run the application:
+  python library_app.py
+- Features:
+  - Find an item
+  - Borrow an item
+  - Return an item
+  - Donate an item
+  - Find an event
+  - Register for an event
+  - Volunteer for the library
+  - Ask for help from a librarian
 
 ##License##
 This project is licensed under the MIT License.
