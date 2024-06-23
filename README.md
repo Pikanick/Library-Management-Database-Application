@@ -14,23 +14,23 @@ This project is a comprehensive Library Management Database Application develope
   - `itemId (Primary Key)`, `type`, `title`, `author`, `isBorrowed`
 - Customer: Stores information about library members.
   - `customerId (Primary Key)`, `name`, `birthDate`, `address`, `email`
--Borrow: Manages borrowed items.
+- Borrow: Manages borrowed items.
   - `borrowId (Primary Key)`, `customerId (Foreign Key)`, `itemId (Foreign Key)`, `dueDate`
--Fine: Manages fines for overdue items.
+- Fine: Manages fines for overdue items.
   - `fineId (Primary Key)`, `customerId (Foreign Key)`, `amount`
--Event: Manages library events.
+- Event: Manages library events.
   - `eventId (Primary Key)`, `name`, `date`, `roomId (Foreign Key)`, `type`
--Room: Stores information about library rooms.
+- Room: Stores information about library rooms.
   - `roomId (Primary Key)`, `type`, `capacity`
--RecommendAudience: Associates specific audiences with events.
+- RecommendAudience: Associates specific audiences with events.
   - `eventId (Primary Key, Foreign Key)`, `customerId (Primary Key, Foreign Key)`
--EventAttend: Tracks attendance of events by members.
+- EventAttend: Tracks attendance of events by members.
   - `eventId (Primary Key, Foreign Key)`, `customerId (Primary Key, Foreign Key)`
--Employee: Stores information about library employees.
+- Employee: Stores information about library employees.
   - `employeeId (Primary Key)`, `name`, `position`, `startDate`, `salary`
--PreviousEmployee: Stores information about past employees.
+- PreviousEmployee: Stores information about past employees.
   - `previousEmployeeId (Primary Key)`, `name`, `position`, `startDate`, `endDate`, `salary`
--FutureItem: Keeps records of potential future library items.
+- FutureItem: Keeps records of potential future library items.
   - `futureItemId (Primary Key)`, `type`, `addDate`, `title`, `author`
 
 ##Functional Dependencies and BCNF##
@@ -40,7 +40,7 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
 Clone the repository:
 bash
 Copy code
-`git clone https://github.com/yourusername/library-management.git`
+```git clone https://github.com/yourusername/library-management.git```
 code cd library-management
 Install required packages:
 bash
