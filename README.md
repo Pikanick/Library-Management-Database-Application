@@ -33,10 +33,10 @@ This project is a comprehensive Library Management Database Application develope
 - FutureItem: Keeps records of potential future library items.
   - `futureItemId (Primary Key)`, `type`, `addDate`, `title`, `author`
 
-##Functional Dependencies and BCNF##
+## Functional Dependencies and BCNF
 All tables are in BCNF as each non-trivial functional dependency has a superkey as the determinant, ensuring the database design avoids anomalies.
 
-##Installation##
+## Installation
 - Clone the repository:
   git clone https://github.com/yourusername/library-management.git
   cd library-management
@@ -44,7 +44,7 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
   pip install -r requirements.txt
 - Set up the database:
   python setup_database.py
-## Usage ##
+## Usage
 - Run the application:
   python library_app.py
 - Features:
