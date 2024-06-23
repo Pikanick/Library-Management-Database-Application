@@ -1,17 +1,17 @@
 # Library-Management-Database-Application
 This project is a comprehensive Library Management Database Application developed using Python and SQLite. The application allows library staff to manage items, customers, borrowings, fines, events, and employee records efficiently.
 ## Features
-Item Management: Manage library items including print books, online books, magazines, CDs, records, etc.
-Customer Management: Maintain detailed records of library members.
-Borrow and Return Management: Track items borrowed and returned by members, along with due dates.
-Fine Management: Manage fines for overdue items.
-Event Management: Organize and track library events and attendees.
-Employee Management: Keep records of current and past library employees.
-Future Acquisitions: Maintain records of items to be added to the library in the future.
+- **Item Management**: Manage library items including print books, online books, magazines, CDs, records, etc.
+- **Customer Management**: Maintain detailed records of library members.
+- **Borrow and Return** Management: Track items borrowed and returned by members, along with due dates.
+- **Fine Management**: Manage fines for overdue items.
+- **Event Management**: Organize and track library events and attendees.
+- **Employee Management**: Keep records of current and past library employees.
+- **Future Acquisitions**: Maintain records of items to be added to the library in the future.
 ## Database Design
-Entities and Relationships
-Item: Stores information about all items in the library.
-itemId (Primary Key), type, title, author, isBorrowed
+**Entities and Relationships**
+- Item: Stores information about all items in the library.
+  - itemId (Primary Key), type, title, author, isBorrowed
 Customer: Stores information about library members.
 customerId (Primary Key), name, birthDate, address, email
 Borrow: Manages borrowed items.
@@ -39,8 +39,8 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/library-management.git
-cd library-management
+code git clone https://github.com/yourusername/library-management.git
+code cd library-management
 Install required packages:
 bash
 Copy code
