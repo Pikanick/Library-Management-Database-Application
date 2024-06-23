@@ -11,7 +11,7 @@ This project is a comprehensive Library Management Database Application develope
 ## Database Design
 **Entities and Relationships**
 - Item: Stores information about all items in the library.
-  - itemId (Primary Key), type, title, author, isBorrowed
+  - code itemId (Primary Key), type, title, author, isBorrowed
 Customer: Stores information about library members.
 customerId (Primary Key), name, birthDate, address, email
 Borrow: Manages borrowed items.
