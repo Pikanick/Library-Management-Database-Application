@@ -57,13 +57,21 @@ All tables are in BCNF as each non-trivial functional dependency has a superkey 
 ```
 - Features:
   - Find an item
-  - Borrow an item
-  - Return an item
+  - Borrow an item (only offers copies that aren't already checked out)
+  - Return an item (only lets you return items you actually borrowed)
   - Donate an item
   - Find an event
   - Register for an event
   - Volunteer for the library
   - Ask for help from a librarian
+  - Exit (option `0`) -- the menu now loops until you choose this
+
+## Testing
+Run the test suite (uses an in-memory database, so it never touches
+`library.db`):
+```
+  python -m unittest test_library_app.py -v
+```
 
 ## License
 This project is licensed under the MIT License.
